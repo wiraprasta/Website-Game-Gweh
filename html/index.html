@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Gweh - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2096F3;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .navbar .get-started {
+            background-color: #2096F3;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container h1 {
+            font-size: 36px;
+        }
+        .container p {
+            font-size: 18px;
+        }
+        .get-started-btn {
+            background-color: #2096F3;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .container img {
+            width: 300px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Game Gweh</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="product.html" class="get-started">Get Started</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Game Gweh Website!</h1>
+        <p>We are a team of indie game makers who have made several playable games</p>
+        <button class="get-started-btn" onclick="window.location.href='product.html'">Get Started</button>
+        <br><br>
+        <img src="game-building.png" alt="Game Building">
+    </div>
+
+</body>
+</html>
